@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropbox login</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Create top bar with a left and right -->
+    <!-- positioning.html -->
+    <!-- <h2>position: absolute;</h2> -->
+
+
+    <div class="relative-abs row"><!-- my container -->
+        <div id="logo">
+            <a href="https://www.dropbox.com/" target="_blank">
+                <img src="assets/images/DBox.png" alt="Dropbox logo" width="auto" height="48">
+            </a>
+        </div>
+        <div id="sign-up"><a href="https://www.dropbox.com/register" target="_blank">Sign up</a></div>
+    </div>
+
+    <div class="relative-login-cont"> <!-- This div element has position: relative; -->
+        <div class="abs-login-screen"> <!-- This div element has position: absolute; --> 
+            </div>
+        <div>
+            <h3>Log in or sign up</h3>
+            <div class="button">
+                <div class="button-inner">
+                    <a href="https://accounts.google.com/InteractiveLogin/signinchooser" target=
+                    _blank"><img src="assets/images/Google.png" align="left" alt="Google">Continue with Google</a>
+                </div>
+            </div>
+            <div class="button">
+                <div class="button-inner">
+                    <a href="https://www.apple.com/shop/" target="_blank"><img src="assets/images/Apple.png" align="left" alt="Apple">Continue with Apple</a>
+                </div>
+            </div>
+            <div class="hr-cont"><hr> or <hr></div>
+
+            <form>
+                <label class="email-label"for="email">Email:</label><br>
+                <input class="email-input" type="text" name="email" />
+                <br/>
+                <input id="submit" type="submit" value="Continue">
+            </form>
+
+        </div>
+    </div>
+
+    <footer>&copy; 2023 John Ault | All rights reserved.
+    </footer>
+</body>
+
+</html>
